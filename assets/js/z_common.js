@@ -1,5 +1,6 @@
 // const baseUrlServer = "http://localhost:3000/";
-var baseClient = "http://localhost:4200/";
+// const baseClient = "http://localhost:4200/";
+var baseClient = "https://chuhonghanh20689.github.io/";
 var baseUrlServer = "https://fries-salad.herokuapp.com/";
 // const baseUrlServer = "http://localhost:5000/";
 var serverImagesUrl = "https://s3.us-east-2.amazonaws.com/hanhchbucket/";
