@@ -1,7 +1,7 @@
-// const baseUrlServer = "http://localhost:3000/";
+var baseUrlServer = "http://localhost:3000/";
 // const baseClient = "http://localhost:4200/";
 var baseClient = "https://chuhonghanh20689.github.io/";
-var baseUrlServer = "https://fries-salad.herokuapp.com/";
+// const baseUrlServer = "https://fries-salad.herokuapp.com/";
 // const baseUrlServer = "http://localhost:5000/";
 var serverImagesUrl = "https://s3.us-east-2.amazonaws.com/hanhchbucket/";
 var serverThumbnailURL = "https://s3.us-east-2.amazonaws.com/hanhchbucket/";
@@ -10,9 +10,6 @@ var adminEmail = "fries-salad.cs@gmail.com";
 var adminName = "Admin";
 $(document).ready(function () {
     new WOW().init();
-    $('.commentPro').click(function () {
-        $('.commentContent').slideToggle('slow');
-    });
     $('.cancelBtn').click(function (event) {
         event.preventDefault();
         $('.commentContent').slideToggle('slow');
